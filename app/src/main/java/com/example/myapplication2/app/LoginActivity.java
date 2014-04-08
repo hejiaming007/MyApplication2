@@ -88,7 +88,7 @@ public class LoginActivity extends ActionBarActivity {
 
     public void makePhoneCall(View view) {
 
-        Uri uri = Uri.parse("tel:12345678");
+        Uri uri = Uri.parse("tel:123456789");
 
         Intent intent = new Intent(Intent.ACTION_CALL, uri);
 
