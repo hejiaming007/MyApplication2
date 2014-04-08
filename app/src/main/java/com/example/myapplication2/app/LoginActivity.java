@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.myapplication2.service.ServiceDemo;
+import com.example.myapplication2.services.ServiceDemo;
 
 public class LoginActivity extends ActionBarActivity {
 

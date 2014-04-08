@@ -30,7 +30,7 @@
         </activity>
 
         <service
-            android:name="com.example.myapplication2.service.ServiceDemo"
+            android:name="com.example.myapplication2.services.ServiceDemo"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>

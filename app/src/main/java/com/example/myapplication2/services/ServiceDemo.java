@@ -1,4 +1,4 @@
-package com.example.myapplication2.service;
+package com.example.myapplication2.services;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -14,7 +14,7 @@ import java.util.Random;
 public class ServiceDemo extends Service {
 
 
-    public static final String ACTION = "com.example.myapplication2.service.ServiceDemo";
+    public static final String ACTION = "com.example.myapplication2.services.ServiceDemo";
 
     public ServiceDemo() {
     }
