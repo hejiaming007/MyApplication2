@@ -3,7 +3,6 @@ package com.example.myapplication2.app;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -23,11 +22,10 @@ public class ResultActivity extends ActionBarActivity {
         String username = getIntent().getStringExtra("username");
         String password = getIntent().getStringExtra("password");
 //        System.out.println("username:"+username); //Ctrl + j
+
         Log.d(TAG, "username:" + username);
 
         Log.d(TAG, "password:" + password);
-//        System.out.println("");
-
 
 
         TextView textView = (TextView) findViewById(R.id.loginResult);
